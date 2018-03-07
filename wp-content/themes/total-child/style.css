@@ -1,0 +1,1012 @@
+/*
+ Theme Name:   CFD Rodeo
+ Description:  CFD Rodeo WP Theme
+ Author:       LifeBlue
+ Author URI:   http://lifeblue.com
+ Template:     Total
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/*Begin Custom Styles*/
+
+/*backend editor fix*/
+.vc_controls-row .vc_row_layouts {
+	height: 26px !important;
+}
+
+/*Standard Page Elements*/
+
+
+p {
+	color: #464b55;
+	font-family: "proxima-nova";
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.wpex-vc-row-boxed-layout-stretched {
+	padding-left: 150px !important;
+	padding-right: 150px !important;
+	
+}
+
+ #site-header-inner{
+	padding: 0 150px 10px 150px !important;
+	
+}
+
+.mainNav {
+	float: right;
+}
+
+.standardButton {
+  text-align: center;	
+	
+}
+.vc_row {
+    display: flex;
+}
+
+
+
+#wrap, #footer {
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-image: linear-gradient(to right, #fcbb5d 0%, #fc5d57 100%);
+	border-image-slice: 1;
+}
+
+.boxed-main-layout #wrap .container {
+	/*padding-left: 0;
+	padding-right: 0;*/
+	
+}
+
+.boxed-main-layout .navbar-style-one {
+	position: relative;
+}
+
+#site-navigation {
+	margin-top: 25px;
+	float:right;
+}
+
+#site-navigation .topMenu ul {
+	float: right;
+}
+
+#site-navigation .topMenu ul li a{
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-family: "proxima-nova";
+	text-transform:uppercase;	
+	color: #7d8189;
+	margin: 0 10px;
+	}
+
+.facebook .fa {color: #103481 !important; font-size: 16px;}
+.twitter .fa {color: #38bae7 !important; font-size: 16px;}
+.instagram .fa {color: #bf3492 !important; font-size: 16px;}
+
+
+.navbar-style-one {
+	top: 2%;
+	margin-top: 0;
+}
+/*
+#site-navigation li.megamenu > ul.sub-menu {
+	background: #1d62f2; 
+	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%); 
+	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%); 
+	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); 
+	padding: 25px;
+}
+
+#site-navigation .dropdown-menu ul a:hover {
+	background: transparent;	
+}
+#site-navigation li.megamenu > ul.sub-menu > li {
+	border-left: 4px solid #b8e64c !important;
+	padding: 0;
+	margin: 5px 0;
+
+}
+
+.wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul li a {
+	font-weight:700;
+	padding: 0 5px;
+}
+
+sf-menu ul {
+	min-width: 700px;
+}*/
+
+.wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul {
+
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+	background: #1d62f2; /* Old browsers */
+	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
+	padding: 25px;
+    margin-top: 11px;
+}
+
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
+	left: -465px;
+}
+
+#site-navigation .dropdown-menu ul a:hover {
+	background: transparent;	
+}
+
+#site-navigation .dropdown-menu ul li {
+	padding: 5px;
+
+}
+
+.wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul li a {
+
+	margin: 5px 0;
+	border-left: 4px solid #b8e64c;
+	font-weight:700;
+	padding: 0 5px;
+}
+
+/* BEGIN: Daniel font page ribbon */
+#blue_ribbon {
+	color: #fff;
+    font-size: .9em;
+}
+#blue_ribbon .wpb_wrapper {
+	background-color: #113b8e;
+}
+#blue_ribbon h3 {
+	color: #fff;
+    font-size: 1.25em;
+    margin-top: 0px;
+}
+#site-header.overlay-header {
+	position: relative;
+}
+body.home #overlay-header-wrap {
+	background-image: url('/wp-content/uploads/2017/11/main-bg-image.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.home .page-header.wpex-supports-mods {
+	background-image: none !important;
+}
+/* END: Daniel font page ribbon */
+
+#blueRibbon {
+	/*margin-top: 8%;*/
+	height: 48px;
+	z-index: 9999;
+	font-family: "Roboto Slab";
+	font-size: 18px;
+	position: relative;
+	margin: 0 auto;
+    width: 100%;
+    /* top: 1px; */
+	padding-left: 123px !important;
+    background-color: #113b8e !important;
+}
+
+#blueRibbon .wpb_column .vc_column-inner{
+	margin-bottom: 0px !important;
+}
+
+#blueRibbon h3 {
+	margin: 0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+
+}
+
+#blueRibbon .vcex-countdown {
+	font-size: 14px;
+	color: #fff;
+	font-family: "proxima-nova";
+	
+}
+
+
+
+.blueRibbonDate h3 {
+	border-right: 1px solid #395ca1;
+	width: 95%;
+}
+
+/*.vcex-countdown > div:nth-child(3) {
+	display: none;
+}*/
+
+.vcex-countdown > div {
+	margin: 0 10px 0 0;
+}
+
+
+a.buyTicketsBlue  {
+	line-height: 17px;
+}
+
+.buyTicketsRed {
+	width: 100%;
+	color: #fff;
+	float:left;
+	display: block;
+	margin: 25px 0;
+	
+}
+
+.buyTicketsRedButton{
+	background: #ec5e54;
+	line-height: 51px;
+	font-size: 20px;
+	text-align:center;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	width: 200px;
+	float:left;	
+	color: #fff;
+}
+
+.buyTicketsDate {
+	background: #b82116;
+	line-height: 51px;
+	font-size: 20px;
+	text-align:center;
+	font-family: "proxima-nova";
+	font-weight: 300;
+	width: 43%;
+	float:left;	
+
+}
+
+.buyTicketsButton {
+	background: #ec5e54;
+	line-height: 51px;
+	font-size: 20px;
+	text-align:center;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	width: 43%;
+	float:left;	
+
+}
+
+a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
+
+
+#openerContainer {
+	width: 100%;
+    margin-top: 160px;
+    margin-left: 80px;
+}
+
+
+.line1 p {
+	font-family: "proxima-nova";
+	font-size: 24px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #333;
+	line-height: 24px;
+	letter-spacing: .5px;
+}
+
+.line2 p {
+	font-family: "Roboto Slab";
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	line-height: 75px;
+	letter-spacing: .5px;
+}
+
+.line3 p {
+	font-family: "Roboto Slab";
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+	line-height: 38px;
+	letter-spacing: .5px;
+}
+
+.line4 p {
+	font-family: "proxima-nova";
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #333;
+	line-height: 18px;
+	letter-spacing: .5px;
+}
+
+.homeMasonry {
+	margin: 0 auto;
+}
+
+
+.ourHistoryButton {
+	border: 2px solid #ec5e54;
+	line-height: 51px;
+	font-size: 20px;
+	text-align:center;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	color: #ec5e54;
+	width: 190px;
+	float:left;
+	background:	transparent;	
+
+}
+
+a > .ourHistoryButton {color: #ec5e54;}
+
+.historyLine1 p {
+	font-family: "";
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #231f20;
+	line-height: 24px;
+	letter-spacing: .5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width: 323px;
+}
+
+.historyLine2 p {
+	font-family: "Roboto Slab";
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #231f20;
+	line-height: 48px;
+	letter-spacing: .5px;
+	width: 323px;
+	padding-bottom: 40px;
+}
+
+.historyLine3 p {
+	font-family: "proxima-nova";
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: none;
+	color: #231f20;
+	line-height: 24px;
+	letter-spacing: .5px;
+	width: 323px;
+	padding-bottom: 40px;
+}
+
+
+.polaroids .vc_custom_1511212651809 {
+	background-position: 100px 140px !important;
+}
+
+/*Revolution Slider customizations for polaroid slider*/
+
+#rev_slider_1_1_wrapper{
+	left: 110px;
+}
+
+.custom.tparrows {
+      bottom: 0;
+      top: 79% !important;
+      background:  #58e49b !important;
+      width: 78px;
+	  height: 78px;
+    }
+	
+.tp-rightarrow {
+	 transform: matrix(1, 0, 0, 1, -78, 0) !important;
+}
+
+.tp-leftarrow {
+	transform: matrix(1, 0, 0, 1, 252, 0) !important;
+}
+	
+.custom.tparrows:before {
+	line-height: 78px;
+}
+
+
+/*Plan Your Experience*/
+
+.planExperience h3{
+	font-family: "Roboto Slab", serif;
+	color: #000;
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.planExperience  {
+	min-height: 735px;
+	padding: 100px 0 100px 0;
+}
+
+
+
+
+.planExperience p {
+	font-family: "proxima-nova";
+	font-size: 20px;
+	font-weight:400;
+	line-height: 38px;
+	color: #fff;
+}
+
+.planCardText {
+	height: 190px;
+	padding: 25px 35px;
+}
+
+
+.planCard p {
+	font-family: "proxima-nova";
+	font-size: 14px;
+	font-weight:400;
+	line-height: 24px;
+	color: #000;
+	font-style: italic;
+}
+
+.planExperience .vc_column-inner h2 {
+	color: #fff !important;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.planCard .wpb_text_column {
+	background: rgba(255,255,255,.90);
+}
+
+/*Juicer Social Feed */
+.juicer-feed.image-grid .j-text{ 
+	background: #6846b8; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #6846b8 0%, #9748bf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	padding: 2% 5% 0 5%;
+}
+
+.juicer-feed.image-grid .j-text .j-message p {
+	color: #fff;
+}
+
+.juicer-feed .j-twitter {
+	background: #6846b8; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #6846b8 0%, #9748bf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
+}
+
+/*.juicer-feed .j-stacker>* {
+	border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.juicer-feed li.feed-item {
+	border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}*/
+
+.juicer-feed.image-grid li.feed-item.j-twitter.image-post .j-text {
+	background: transparent;
+}
+
+.juicer-feed.image-grid li.feed-item.j-twitter .j-poster a {
+	background: transparent;	
+}
+
+.juicer-feed .j-twitter-text:before {
+	color: #563792 !important;
+}
+
+/*Sponsor Tabs*/
+
+.home .vc_custom_1518127569286 {
+	background-size: auto !important;
+}
+
+.sponsorTabs ul li.vc_tta-tab> a {
+	font-family: "Roboto Slab";
+	font-weight:300;	
+	font-size: 14px;
+}
+
+.sponsorTabs {
+	margin: 0;
+}
+
+.sponsorTabs .vc_tta-panels, .sponsorTabs li.vc_tta-tab:not(.vc_active) a{
+	border: none !important;
+}
+
+.sponsorTabs li.vc_tta-tab>a {
+	border-width: 1px !important;
+}
+
+.sponsorTabs li.vc_tta-tab>a:hover {
+	background-color: transparent !important;
+	color: #000 !important;
+}
+
+.sponsorTabs .vc_tta-tab>a {
+	padding: 8px 25px !important;	
+}
+
+
+/*end sponsor tabs*/
+
+
+
+
+
+/*Single Event Layouts*/
+
+
+/*WHAT IS THIS?? */
+#single-blocksy {display: none;}
+
+.ai1ec_event-template-default #blueRibbon{
+	top: 0;
+}
+.ai1ec_event-template-default #post-media {
+    max-height: 490px;
+    overflow: hidden;
+	
+}
+
+.single-ai1ec_event-content .ai1ec-single-event {
+	width: 20%;
+	float:right;
+	background-color: #6846b7;
+	margin: 5%;
+	padding: 10px;
+}
+
+.eventDetails {
+	display:block;
+	width:100%;
+	float:left;
+	clear:both;
+	padding: 0 13%;
+}
+
+.single-ai1ec_event .widget {
+	float: right;
+}
+
+.detailsBox {
+	color: #fff;
+	background: #6846b7;
+	width:	300px;
+	height: auto;
+	float:right;
+	/*margin-right: 9.5% !important;*/
+	margin-top: 120px !important;
+	padding: 0;
+}
+
+
+.detailsBox h1 {
+	color: #fff;
+	font-size: 50px;
+	text-transform:uppercase;
+	line-height:44px;
+	font-family: "proxima-nova";
+	margin-bottom:10px;
+	padding: 20px 20px 0 20px;
+}
+
+.detailsBox h2 {
+	color: #fff;
+	font-size:30px;
+	text-transform:uppercase;
+	font-family: "proxima-nova";
+	font-weight:300;
+	margin: 0 0 10px 0;
+	padding: 0 20px;
+}
+
+.detailsBox .customDate{
+	color: #fff;
+	font-size: 16px;
+	font-family: "proxima-nova";
+	font-weight:300;
+	line-height:14px;
+ 	padding: 0 20px;
+	margin-bottom: 15px;
+	}
+	
+.customDate span.dateBg{	
+	background:  #513985;
+	padding: 5px;
+}
+
+.detailsBox .customExcerpt {
+	color: #fff;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "proxima-nova";
+	font-weight:300;
+	line-height:14px;
+ 	padding: 0 20px;
+	margin: 0 0 10px 0;
+}
+
+.detailsBox .cfdBuyTickets {
+	width:	100%;
+	background:#ec5e54;
+	padding: 5px;
+	display:block;
+	z-index:999;
+	
+}
+
+
+.detailsBox .cfdBuyTickets a{
+	color: #fff; 
+	font-family: "Roboto Slab";
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align:left;
+	z-index:999;
+}
+
+.eventContent {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 300px;
+	padding-right: 35px;
+	font-size: 18px;
+	width: 66.66%;
+	
+}
+
+.eventContentTitle h2{
+	 font-family: "Roboto Slab";
+	 font-size: 2.5em;
+	 text-align:left;
+	 font-weight:700;
+	 text-transform: uppercase;
+	 margin-bottom:30px !important;
+}
+
+.eventContent p:nth-child(1):first-letter  { 
+    font-size: 350%;
+    font-family: "Roboto Slab";
+	font-weight:700;
+	float: left;
+	line-height: 60px;
+	}
+	
+.venueItenerary {
+	margin-bottom: 25px;
+}
+	
+.venueItenerary, .venueIteneary a{
+	color: #efd66f;
+	font-family: "proxima-nova";
+	font-size:14px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	
+}
+
+a.simplefavorite-button  {
+	color: #efd66f;
+	text-transform: uppercase;
+}
+
+
+/*Interior Page Styles*/
+.page-template-default .page-header {
+	height: 250px;
+	padding: 0 130px;
+}
+
+.page-header .page-header-title {
+	font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight:700;
+	font-size: 72px;
+	text-transform: uppercase;
+	color: #fff;
+	max-width: 650px;
+}
+
+.page-header .page-subheading {
+	position:absolute;
+	margin-top: 255px;
+	font-family: "proxima-nova";
+	font-weight:400;
+	font-size: 35px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #113b8e;
+	max-width: 650px;
+
+}
+
+.page .page-header-inner {
+	position:relative;
+	height: 250px;
+}
+
+h1.page-header-title span {
+	position:absolute;
+	bottom: 0;
+	max-width: 650px;
+	line-height: 72px;
+}
+
+/*.page-header-table-cell {
+	text-align: left;
+	padding: 0 130px;
+}
+
+.page-header.background-image-page-header .page-header-title {
+	position:absolute;
+	margin-top: 40px;
+	font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight:700;
+	font-size: 72px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.page-header.background-image-page-header .page-subheading {
+	position:absolute;
+	margin-top: 135px;
+	font-family: "proxima-nova";
+	font-weight:400;
+	font-size: 35px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #113b8e;
+
+}
+*/
+
+ .dropCap p:nth-child(1):first-letter  { 
+    font-size: 72px;
+    font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight:900;
+	text-transform: uppercase;
+	float: left;
+	line-height: 60px;
+	}
+	
+.firstRow .leftCol {
+	padding-top: 50px;
+}
+
+.firstRow .rightCol {
+	margin-top: -270px;
+}
+
+
+.wpb_text_column.rightColMenu {
+	margin-left: 75px ;
+	padding-left: 15px;
+	border-left: 1px solid #6846b8;
+	
+}
+
+.rightColMenu h4 {
+	font-family: "Roboto Slab";
+	color: #6846b8;
+	font-weight:400;
+	font-size: 24px;
+	text-transform:uppercase;
+	margin-bottom: 25px;
+}
+
+.rightColMenu ul {
+	margin: 0 0 20px 0;	
+}
+
+.rightColMenu ul li {
+		list-style: none;
+}
+
+.rightColMenu ul li a:hover{
+		text-decoration: underline;
+}
+
+.rightColMenu ul li a {
+	font-family: "proxima-nova";
+	color: #2467ee;
+	font-weight:700;
+	font-size: 17px;
+	text-decoration: underline;
+	text-underline-position: under;
+	-webkit-text-underline-position: under;
+    -ms-text-underline-position: below;
+	
+}
+
+.quoteText {
+	width: 375px;
+	height: 509px;
+	background: url("/wp-content/uploads/2018/02/interior-page-quote-bg.jpg") top center no-repeat;
+	padding-top: 85px;
+}
+
+.quoteText p {
+	font-family: "Roboto Slab";
+	color: #fff;
+	font-weight:700;
+	font-size: 40px;
+	width: 255px;
+	text-align:left;
+	margin: 0 auto;
+	line-height: 55px;
+}
+
+.quoteText p em {
+	font-family: "proxima-nova";
+	font-size: 24px;
+	font-weight:400;
+}
+
+.featureBox {
+	min-height: 735px;
+	padding: 100px 0 100px 0;
+}
+
+.featureBox .vc_column-inner {
+	width: 60%;
+	padding: 50px;
+}
+
+
+.featureBox p {
+	font-family: "proxima-nova";
+	font-size: 20px;
+	font-weight:400;
+	line-height: 38px;
+	color: #fff;
+}
+
+.featureBox .vc_column-inner h2 {
+	color: #fff !important;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.owl-carousel.owl-loaded {clear: both}
+
+
+
+
+/*Interior Page Mobile Styles*/
+@media only screen and (max-width: 767px) {
+.vc_row { flex-direction:column-reverse}
+
+.wpex-vc-row-boxed-layout-stretched {
+	 padding-left: 15px !important; 
+	 padding-right: 15px !important;
+	 }
+#site-header-inner {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+
+.firstRow .leftCol {
+	padding-top: 0;
+
+}
+
+.firstRow .rightCol {
+	margin-top: 0;
+}
+
+.page-header-table-cell {
+	text-align: center;
+	padding: 0 30px;
+}
+
+.page-template-default .page-header {
+	padding: 25px 0;
+	text-align:center;
+}
+
+.page-header .page-header-title {
+	position:relative;
+	margin-top: 0;
+	font-family: "Roboto Slab";
+	font-style: normal;
+	font-weight:700;
+	font-size: 45px;
+	color: #fff;
+}
+
+.page-header .page-subheading {
+	position:relative;
+	margin-top: 0;
+	font-family: "proxima-nova";
+	font-weight:400;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff !important;
+
+}
+
+h1.page-header-title span {
+	position: relative;
+    bottom: 0;
+    line-height: normal;
+	font-size: 10vw;
+
+}
+
+.featureBox .vc_column-inner {
+	width: 100%;
+	padding: 50px;
+}
+
+
+}
+
+
+
+/*Footer Styles*/
+
+#footer-widgets {
+	width: 1068px;
+	margin: 0 auto;
+}
+
+p.copyright {
+	font-family: "proxima-nova", "Open-sans";
+	color: #7d8189;
+	font-size: 12px;
+	line-height:22px;
+}
+
+.footerText h4 {
+	font-family:"Roboto Slab", "Roboto Slab";
+	color: #ee3124;
+	font-size: 16px;
+	text-transform:uppercase;
+}
+
+.footerText p {
+	font-family: "proxima-nova", "Open-sans";
+	color: #7d8189;
+	font-size: 14px;
+	line-height:22px;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 767px) {
+
