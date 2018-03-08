@@ -19,7 +19,6 @@
 
 /*Standard Page Elements*/
 
-
 p {
 	color: #464b55;
 	font-family: "proxima-nova";
@@ -30,12 +29,10 @@ p {
 .wpex-vc-row-boxed-layout-stretched {
 	padding-left: 150px !important;
 	padding-right: 150px !important;
-	
 }
 
  #site-header-inner{
 	padding: 0 150px 10px 150px !important;
-	
 }
 
 .mainNav {
@@ -43,8 +40,7 @@ p {
 }
 
 .standardButton {
-  text-align: center;	
-	
+  text-align: center;
 }
 .vc_row {
     display: flex;
@@ -62,7 +58,7 @@ p {
 .boxed-main-layout #wrap .container {
 	/*padding-left: 0;
 	padding-right: 0;*/
-	
+
 }
 
 .boxed-main-layout .navbar-style-one {
@@ -83,7 +79,7 @@ p {
 	float: left;
 	font-size: 12px;
 	font-family: "proxima-nova";
-	text-transform:uppercase;	
+	text-transform:uppercase;
 	color: #7d8189;
 	margin: 0 10px;
 	}
@@ -99,16 +95,16 @@ p {
 }
 /*
 #site-navigation li.megamenu > ul.sub-menu {
-	background: #1d62f2; 
-	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%); 
-	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%); 
-	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); 
+	background: #1d62f2;
+	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%);
+	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%);
+	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 );
 	padding: 25px;
 }
 
 #site-navigation .dropdown-menu ul a:hover {
-	background: transparent;	
+	background: transparent;
 }
 #site-navigation li.megamenu > ul.sub-menu > li {
 	border-left: 4px solid #b8e64c !important;
@@ -148,7 +144,7 @@ sf-menu ul {
 }
 
 #site-navigation .dropdown-menu ul a:hover {
-	background: transparent;	
+	background: transparent;
 }
 
 #site-navigation .dropdown-menu ul li {
@@ -183,7 +179,7 @@ sf-menu ul {
 body.home #overlay-header-wrap {
 	background-image: url('/wp-content/uploads/2017/11/main-bg-image.jpg');
 	background-size: contain;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .home .page-header.wpex-supports-mods {
@@ -221,7 +217,7 @@ body.home #overlay-header-wrap {
 	font-size: 14px;
 	color: #fff;
 	font-family: "proxima-nova";
-	
+
 }
 
 
@@ -250,7 +246,7 @@ a.buyTicketsBlue  {
 	float:left;
 	display: block;
 	margin: 25px 0;
-	
+
 }
 
 .buyTicketsRedButton{
@@ -261,7 +257,7 @@ a.buyTicketsBlue  {
 	font-family: "Roboto Slab";
 	font-weight: 300;
 	width: 200px;
-	float:left;	
+	float:left;
 	color: #fff;
 }
 
@@ -273,7 +269,7 @@ a.buyTicketsBlue  {
 	font-family: "proxima-nova";
 	font-weight: 300;
 	width: 43%;
-	float:left;	
+	float:left;
 
 }
 
@@ -285,7 +281,7 @@ a.buyTicketsBlue  {
 	font-family: "Roboto Slab";
 	font-weight: 300;
 	width: 43%;
-	float:left;	
+	float:left;
 
 }
 
@@ -354,7 +350,7 @@ a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
 	color: #ec5e54;
 	width: 190px;
 	float:left;
-	background:	transparent;	
+	background:	transparent;
 
 }
 
@@ -415,7 +411,7 @@ a > .ourHistoryButton {color: #ec5e54;}
       width: 78px;
 	  height: 78px;
     }
-	
+
 .tp-rightarrow {
 	 transform: matrix(1, 0, 0, 1, -78, 0) !important;
 }
@@ -423,7 +419,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 .tp-leftarrow {
 	transform: matrix(1, 0, 0, 1, 252, 0) !important;
 }
-	
+
 .custom.tparrows:before {
 	line-height: 78px;
 }
@@ -503,7 +499,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 /*Juicer Social Feed */
-.juicer-feed.image-grid .j-text{ 
+.juicer-feed.image-grid .j-text{
 	background: #6846b8; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #6846b8 0%, #9748bf 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* Chrome10-25,Safari5.1-6 */
@@ -519,7 +515,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 	background: #6846b8; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #6846b8 0%, #9748bf 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
+	background: linear-gradient(45deg, #6846b8 0%,#9748bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 /*.juicer-feed .j-stacker>* {
@@ -537,7 +533,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 .juicer-feed.image-grid li.feed-item.j-twitter .j-poster a {
-	background: transparent;	
+	background: transparent;
 }
 
 .juicer-feed .j-twitter-text:before {
@@ -552,7 +548,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 .sponsorTabs ul li.vc_tta-tab> a {
 	font-family: "Roboto Slab";
-	font-weight:300;	
+	font-weight:300;
 	font-size: 14px;
 }
 
@@ -574,7 +570,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 .sponsorTabs .vc_tta-tab>a {
-	padding: 8px 25px !important;	
+	padding: 8px 25px !important;
 }
 
 
@@ -596,7 +592,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 .ai1ec_event-template-default #post-media {
     max-height: 490px;
     overflow: hidden;
-	
+
 }
 
 .single-ai1ec_event-content .ai1ec-single-event {
@@ -660,8 +656,8 @@ a > .ourHistoryButton {color: #ec5e54;}
  	padding: 0 20px;
 	margin-bottom: 15px;
 	}
-	
-.customDate span.dateBg{	
+
+.customDate span.dateBg{
 	background:  #513985;
 	padding: 5px;
 }
@@ -683,12 +679,12 @@ a > .ourHistoryButton {color: #ec5e54;}
 	padding: 5px;
 	display:block;
 	z-index:999;
-	
+
 }
 
 
 .detailsBox .cfdBuyTickets a{
-	color: #fff; 
+	color: #fff;
 	font-family: "Roboto Slab";
 	font-size: 22px;
 	font-weight: 700;
@@ -704,7 +700,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 	padding-right: 35px;
 	font-size: 18px;
 	width: 66.66%;
-	
+
 }
 
 .eventContentTitle h2{
@@ -716,25 +712,25 @@ a > .ourHistoryButton {color: #ec5e54;}
 	 margin-bottom:30px !important;
 }
 
-.eventContent p:nth-child(1):first-letter  { 
+.eventContent p:nth-child(1):first-letter  {
     font-size: 350%;
     font-family: "Roboto Slab";
 	font-weight:700;
 	float: left;
 	line-height: 60px;
 	}
-	
+
 .venueItenerary {
 	margin-bottom: 25px;
 }
-	
+
 .venueItenerary, .venueIteneary a{
 	color: #efd66f;
 	font-family: "proxima-nova";
 	font-size:14px;
 	padding: 0 20px;
 	text-transform: uppercase;
-	
+
 }
 
 a.simplefavorite-button  {
@@ -813,7 +809,7 @@ h1.page-header-title span {
 }
 */
 
- .dropCap p:nth-child(1):first-letter  { 
+ .dropCap p:nth-child(1):first-letter  {
     font-size: 72px;
     font-family: "Roboto Slab";
 	font-style: normal;
@@ -822,7 +818,7 @@ h1.page-header-title span {
 	float: left;
 	line-height: 60px;
 	}
-	
+
 .firstRow .leftCol {
 	padding-top: 50px;
 }
@@ -836,7 +832,7 @@ h1.page-header-title span {
 	margin-left: 75px ;
 	padding-left: 15px;
 	border-left: 1px solid #6846b8;
-	
+
 }
 
 .rightColMenu h4 {
@@ -849,7 +845,7 @@ h1.page-header-title span {
 }
 
 .rightColMenu ul {
-	margin: 0 0 20px 0;	
+	margin: 0 0 20px 0;
 }
 
 .rightColMenu ul li {
@@ -869,7 +865,7 @@ h1.page-header-title span {
 	text-underline-position: under;
 	-webkit-text-underline-position: under;
     -ms-text-underline-position: below;
-	
+
 }
 
 .quoteText {
@@ -933,7 +929,7 @@ h1.page-header-title span {
 .vc_row { flex-direction:column-reverse}
 
 .wpex-vc-row-boxed-layout-stretched {
-	 padding-left: 15px !important; 
+	 padding-left: 15px !important;
 	 padding-right: 15px !important;
 	 }
 #site-header-inner {
@@ -1030,4 +1026,3 @@ p.copyright {
 
 /*Mobile Styles*/
 @media only screen and (max-width: 767px) {
-
