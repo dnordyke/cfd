@@ -488,6 +488,10 @@ a > .ourHistoryButton {color: #ec5e54;}
 	color: #fff;
 }
 
+.experienceItineraryLink a {
+	color: #fff;
+}
+
 /*Juicer Social Feed */
 .juicer-feed.image-grid .j-text{ 
 	background: #6846b8; /* Old browsers */
